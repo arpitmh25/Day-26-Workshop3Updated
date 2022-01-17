@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class HotelReservationTest {
 
     @Test
-    public void givenHotelDetails_WhenValuesEnteredAreCorrect_ShouldReturnTrue() {
+    public void givenHotelDetails_WhenValuesEnteredAreCorrect_ShoulReturnTrue() {
         HotelRegistrationInterface hotelReservation = new HotelReservation();
         hotelReservation.addHotel("Lakewood", 3, 110, 90);
         hotelReservation.addHotel("Bridgewood", 4, 150, 50);
