@@ -19,6 +19,4 @@ public class HotelReservation {
         hotelList.put(hotelName, hotels);
         return true;
     }
-
-
 }
