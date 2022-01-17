@@ -3,6 +3,6 @@ package com.bridgelabz.workshop3;
 public class HotelReservationMain {
     public static void main(String[] args) {
 
-        System.out.println(" Welcome To Hotel Reservation System Program");
+        System.out.println(" Welcome To Hotels Reservation System");
     }
 }

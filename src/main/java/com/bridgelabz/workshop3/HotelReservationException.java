@@ -3,7 +3,7 @@ package com.bridgelabz.workshop3;
 public class HotelReservationException extends RuntimeException {
 
     enum ExceptionType {
-        ENTERED_NULL, ENTERED_EMPTY;
+        ENTERED_NULL, ENTERED_NOTHING;
     }
 
     ExceptionType type;
