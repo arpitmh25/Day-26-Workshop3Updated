@@ -59,7 +59,7 @@ public class HotelReservation implements HotelRegistrationInterface {
             String dateRegEx = "^([0-9]{4})[-](([0][1-9])|([1][0-2]))[-]([0-2][0-9]|(3)[0-1])$";
             return date.matches(dateRegEx);
         } catch (NullPointerException e) {
-            throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NULL, "Date is NULL");
+            throw new HotelReservationException(HotelReservationException.ExceptionType.ENTERED_NULL, "Date Is NULL");
         }
 
 
