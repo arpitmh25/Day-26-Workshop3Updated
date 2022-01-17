@@ -15,4 +15,5 @@ public class HotelReservationException extends RuntimeException {
         this.type = type;
 
     }
+
 }

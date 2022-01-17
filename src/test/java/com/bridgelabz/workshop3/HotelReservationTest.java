@@ -14,4 +14,5 @@ public class HotelReservationTest {
         boolean isValidHotel3 = hotelReservationService.addHotel("Ridgewood", 5, 220, 150);
         Assertions.assertTrue(isValidHotel3);
     }
+
 }
