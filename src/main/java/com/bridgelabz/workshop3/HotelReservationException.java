@@ -1,6 +1,5 @@
 package com.bridgelabz.workshop3;
 
-
 public class HotelReservationException extends RuntimeException {
 
     enum ExceptionType {
@@ -15,5 +14,4 @@ public class HotelReservationException extends RuntimeException {
         this.type = type;
 
     }
-
 }
