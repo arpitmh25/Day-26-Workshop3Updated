@@ -13,6 +13,5 @@ public interface HotelRegistrationInterface {
 
     public ArrayList<Hotel> getHotelList();
 
-    public Hotel getCheapestHotel(LocalDate startDate, LocalDate endDate);
-
+    public String getCheapestHotel(LocalDate startDate, LocalDate endDate);
 }
